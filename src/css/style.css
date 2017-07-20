@@ -9,7 +9,7 @@ html body{
     font-family: 'Roboto', 'sans-serif';
     font-size: 40px;
     font-weight: 100;
-    line-height: 0.2;
+    line-height: 1;
     color: white;
 }
 
@@ -45,4 +45,12 @@ a.mail{
 
 .child{
     margin-left: 50px;
+}
+
+/*Mobile*/
+@media screen
+and (max-device-width: 800px) {
+  .copy{
+      font-size: 26px;
+  }
 }
